@@ -103,16 +103,34 @@ $(document).ready(function(){
     initPage()
   }) 
 
-  // select the item element
-const item = document.querySelector('.item');
+//Drag and drop text to other boxes
 
-// attach the dragstart event handler
-item.addEventListener('dragstart', dragStart);
-
-// handle the dragstart
-
-function dragStart(e) {
-   console.log('drag starts...');
-}
+  $(".card .list-group").sortable({
+    connectWith: $(".card .list-group"),
+    scroll: false,
+    tolerance: "pointer",
+    helper: "clone",
+    activate: function(event) {
+      console.log("activate", this);
+    },
+    deactivate: function(event) {
+      console.log("deactivate", this);
+    },
+    over: function(event) {
+      console.log("over", event.target);
+    },
+    out: function(event) {
+      console.log("out", event.target);
+    },
+    update: function(event) {
+    
+      $(this).children().each(function() {
+        console.log($(this));
+      });
+  
+    
+    }
+  
+});
 
 });
