@@ -17,7 +17,7 @@ var sevenPm = $("#19pm");
 var hour = moment().hours();
 var userInput;
 var hourSpan;
-// var hourString = $(".hour").text().split(" ");
+var hourString = $(".hour").text().split(" ");
 
 // Date and Hour
 
