@@ -10,4 +10,4 @@ Further future developments: Add drag/drop feature so that task order can be rea
 
 Published page can be found at: https://nalhomsi.github.io/workday-scheduler/
 
-Repsoitory can be found at: https://github.com/nalhomsi/workday-scheduler
+Repository can be found at: https://github.com/nalhomsi/workday-scheduler
