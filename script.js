@@ -89,6 +89,7 @@ $(document).ready(function(){
   background()
 
   // Buttons (save to Local Storage)
+
   $(".saveBtn").on("click", function(){
     userInput = $(this).siblings(".form-control").val().trim();
     console.log(userInput);
@@ -98,6 +99,7 @@ $(document).ready(function(){
 
   })
   // Button for clear the day
+  
   $("#clearDay").on("click", function(){
     localStorage.clear();
     initPage()
