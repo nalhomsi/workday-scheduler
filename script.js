@@ -2,6 +2,9 @@
 var currentDate = moment().format('dddd') + " " + moment().format("Do MMM YYYY");
 var currentHour = moment().format('h:mm:ss a');
 // Text hour var
+var sixAm = $("#6am");
+var sevenAm = $("#7am");
+var eightAm = $("#8am");
 var nineAm = $("#9am");
 var tenAm = $("#10am");
 var elevenAm = $("#11am");
@@ -10,9 +13,6 @@ var onePm = $("#13pm");
 var twoPm = $("#14pm");
 var threePm = $("#15pm");
 var fourPm = $("#16pm");
-var fivePm = $("#17pm");
-var sixPm = $("#18pm");
-var sevenPm = $("#19pm");
 
 var hour = moment().hours();
 var userInput;
