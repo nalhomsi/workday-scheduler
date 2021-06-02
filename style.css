@@ -1,15 +1,15 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Mate";
   font-size: 16px;
   line-height: 1;
 }
 
 textarea{
-  background: transparent;
+  background: #EEDCCE;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  color: #729179;
+  border-left: 1px solid #384b03;
   padding: 10px;
   width: 920px;
 }
@@ -19,7 +19,7 @@ textarea{
   background-color: #EEDCCE;
   color: #729179;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid #384b03;
 }
 
 .description{
