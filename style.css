@@ -13,13 +13,13 @@ textarea{
   border-left: 1px solid #384b03
 
 }
-
 .jumbotron {
   text-align: center;
   background-color: #EEDCCE;
   color: #729179;
   border-radius: 0;
   border-bottom: 10px solid #384b03;
+ 
 }
 
 .description{
@@ -55,13 +55,13 @@ textarea{
 }
 
 .past {
-  background-color: #729179;
+  background-color: #996666;
   color: #EDE2DC;
 }
 
 .present {
   background-color: #DEAEA2;
-  color: #384b03;
+  color: #a31818
 }
 
 .future {
