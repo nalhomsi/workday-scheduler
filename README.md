@@ -4,7 +4,7 @@ Welcome to your handy daily scheduler! You can add tasks during your workday hou
 
 Further future developments: Add drag/drop feature so that task order can be rearranged without retyping.
 
-![workday](https://user-images.githubusercontent.com/80538653/120423818-2e2a2c00-c339-11eb-8392-22775207fefd.jpg)
+
 
 
 
