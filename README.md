@@ -1,4 +1,4 @@
-#Work-day scheduler
+# Work-day scheduler
 
 Welcome to your handy daily scheduler! You can add tasks during your workday hours. As each task-time passes, the colors will change to let you know what tasks are in the past, which you are currently on, and which are upcoming. By clicking the icon on the right hand of each task, it will save it. You may also clear your tasks to utlize the scheduler for another day.
 
